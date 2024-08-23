@@ -23,14 +23,13 @@ function AboutCard() {
             <div>
               Before diving into computer science, I worked for two years as a
               data analyst in the banking credit sector, where I built a solid
-              foundation in <span className="purple">data analysis.</span>
+              foundation in data analysis.
             </div>
             <div>
-              My goal is to become a{" "}
-              <span className="purple">full-stack developer.</span> I am driven
-              by a passion for solving complex challenges and developing
-              innovative software solutions. I look forward to connecting and
-              collaborating on exciting projects.
+              My goal is to become a full-stack developer. I am driven by a
+              passion for solving complex challenges and developing innovative
+              software solutions. I look forward to connecting and collaborating
+              on exciting projects.
             </div>
             <div>Beyond programming, I enjoy</div>
           </p>
@@ -39,7 +38,7 @@ function AboutCard() {
               <ImPointRight /> Body building
             </li>
             <li className="about-activity">
-              <ImPointRight /> Play CS:GO
+              <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Traveling

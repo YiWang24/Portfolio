@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { FaWindows, FaLinux } from "react-icons/fa";
 import { SiVisualstudiocode, SiPostman, SiDatagrip ,SiPycharm } from "react-icons/si";
-import { DiIntellij } from "react-icons/di";
+import { DiIntellij, DiPycharm } from "react-icons/di";
 
 function Toolstack() {
   return (
