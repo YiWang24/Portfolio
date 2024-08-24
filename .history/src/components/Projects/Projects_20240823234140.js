@@ -33,10 +33,7 @@ function Projects() {
           </Col>
         </Row>
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <br
       </Container>
     </Container>
   );

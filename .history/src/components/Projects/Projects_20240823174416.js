@@ -28,15 +28,10 @@ function Projects() {
               title="Wy Camp"
               description="This is an express+bootstrap project. Regarding a camp website, you can add camps and score them. It is the first project learned from web development bootcamp."
               ghLink="https://github.com/YiWang24/WyCamp"
-              demoLink="https://yiwang.run/Wycamp"
+              demoLink="http://yiwang.run/app2"
             />
           </Col>
         </Row>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </Container>
     </Container>
   );

@@ -25,18 +25,13 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Wy Camp"
-              description="This is an express+bootstrap project. Regarding a camp website, you can add camps and score them. It is the first project learned from web development bootcamp."
+              title="Chatify"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/YiWang24/WyCamp"
-              demoLink="https://yiwang.run/Wycamp"
+              demoLink="http://yiwang.run/app2"
             />
           </Col>
         </Row>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </Container>
     </Container>
   );

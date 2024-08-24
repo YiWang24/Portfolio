@@ -77,52 +77,51 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
+                <a
+                  href="https://github.com/YiWang24"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://x.com/wang_yi13857"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/yi-wang-51892731a/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/yiwang2026/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
               <a
-                href={LINKS.github}
+                href="mailto:yiwang2457@gmail.com"
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour home-social-icons"
-                aria-label="GitHub"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href={LINKS.twitter}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour home-social-icons"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href={LINKS.linkedin}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour home-social-icons"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href={LINKS.instagram}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour home-social-icons"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href={LINKS.gmail}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour home-social-icons"
+                 className="icon-colour home-social-icons"
               >
                 <SiGmail />
               </a>

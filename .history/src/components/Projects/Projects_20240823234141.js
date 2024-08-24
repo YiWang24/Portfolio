@@ -34,9 +34,6 @@ function Projects() {
         </Row>
         <br />
         <br />
-        <br />
-        <br />
-        <br />
       </Container>
     </Container>
   );

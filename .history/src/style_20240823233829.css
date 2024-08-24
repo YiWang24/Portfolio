@@ -418,7 +418,10 @@ button:focus {
   z-index: 1;
   text-align: center !important;
 }
-
+.content-wrapper {
+  flex-direction: column;
+  min-height: 100vh;
+}
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
