@@ -20,7 +20,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-      <Container fluid className="footer " style={{ marginTop: "auto"  }}>
+      <Container fluid className="footer d-flex flex-column" style={{ marginTop: "auto"  }}>
         <Row>
           <Col md="2" className="footer-copywright">
             <h3>Design by Soumyajit Behera</h3>

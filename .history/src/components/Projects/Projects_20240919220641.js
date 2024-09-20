@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import flavor from "../../Assets/Projects/flavor.png";
+import flavor from "../../Assets/Projects/leaf.png";
 import camp from "../../Assets/Projects/camp.png";
+
 
 function Projects() {
   return (
-    <Container fluid className="project-section " style={{minHeight: "100vh"}}>
+    <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -19,15 +20,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={flavor}
+              imgPath={chatify}
               isBlog={false}
               title="Flavor"
-              description="Flavor dedicated to celebrating the special moments and favorite experiences shared between me and my girlfriend. The website is built using Express.js for the backend, Bootstrap for a responsive and sleek frontend, and MongoDB for data storage. "
+              description="Flavor is a personal website dedicated to celebrating the special moments and favorite experiences shared between me and my girlfriend. The website is built using Express.js for the backend, Bootstrap for a responsive and sleek frontend, and MongoDB for data storage. "
               ghLink="https://github.com/YiWang24/Flavor"
               demoLink="https://app1.yiwang.run/"
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={camp}
               isBlog={false}
@@ -38,7 +37,11 @@ function Projects() {
             />
           </Col>
         </Row>
-
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </Container>
     </Container>
   );

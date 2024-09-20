@@ -2,12 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import flavor from "../../Assets/Projects/flavor.png";
-import camp from "../../Assets/Projects/camp.png";
+import leaf from "../../Assets/Projects/leaf.png";
+import emotion from "../../Assets/Projects/emotion.png";
+import editor from "../../Assets/Projects/codeEditor.png";
+import chatify from "../../Assets/Projects/chatify.png";
+import suicide from "../../Assets/Projects/suicide.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section " style={{minHeight: "100vh"}}>
+    <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -19,26 +23,29 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={flavor}
+              imgPath={chatify}
               isBlog={false}
-              title="Flavor"
-              description="Flavor dedicated to celebrating the special moments and favorite experiences shared between me and my girlfriend. The website is built using Express.js for the backend, Bootstrap for a responsive and sleek frontend, and MongoDB for data storage. "
-              ghLink="https://github.com/YiWang24/Flavor"
-              demoLink="https://app1.yiwang.run/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={camp}
-              isBlog={false}
-              title="MyCamp"
+              title="Wy Camp"
               description="This is an express+bootstrap project. Regarding a camp website, you can add camps and score them. It is the first project learned from web development bootcamp."
               ghLink="https://github.com/YiWang24/WyCamp"
-              demoLink="https://app2.yiwang.run/"
+              demoLink="https://yiwang.run/app1"
             />
+<ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Wy Camp"
+              description="This is an express+bootstrap project. Regarding a camp website, you can add camps and score them. It is the first project learned from web development bootcamp."
+              ghLink="https://github.com/YiWang24/WyCamp"
+              demoLink="https://yiwang.run/app1"
+            />
+
           </Col>
         </Row>
-
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </Container>
     </Container>
   );

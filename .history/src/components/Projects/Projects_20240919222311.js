@@ -7,7 +7,7 @@ import camp from "../../Assets/Projects/camp.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section " style={{minHeight: "100vh"}}>
+    <Container fluid className="project-section " stype={}>
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -22,7 +22,7 @@ function Projects() {
               imgPath={flavor}
               isBlog={false}
               title="Flavor"
-              description="Flavor dedicated to celebrating the special moments and favorite experiences shared between me and my girlfriend. The website is built using Express.js for the backend, Bootstrap for a responsive and sleek frontend, and MongoDB for data storage. "
+              description="Flavor is a personal website dedicated to celebrating the special moments and favorite experiences shared between me and my girlfriend. The website is built using Express.js for the backend, Bootstrap for a responsive and sleek frontend, and MongoDB for data storage. "
               ghLink="https://github.com/YiWang24/Flavor"
               demoLink="https://app1.yiwang.run/"
             />

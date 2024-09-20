@@ -16,13 +16,13 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "0px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={flavor}
               isBlog={false}
               title="Flavor"
-              description="Flavor dedicated to celebrating the special moments and favorite experiences shared between me and my girlfriend. The website is built using Express.js for the backend, Bootstrap for a responsive and sleek frontend, and MongoDB for data storage. "
+              description="Flavor is a personal website dedicated to celebrating the special moments and favorite experiences shared between me and my girlfriend. The website is built using Express.js for the backend, Bootstrap for a responsive and sleek frontend, and MongoDB for data storage. "
               ghLink="https://github.com/YiWang24/Flavor"
               demoLink="https://app1.yiwang.run/"
             />
