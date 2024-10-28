@@ -37,7 +37,7 @@ function Projects() {
               imgPath={camp}
               isBlog={false}
               title="MyCamp"
-              description="Built a camp website using Express, Bootstrap, and MongoDB, where users can add camps, score them, and view ratings. This project, developed as part of a web development bootcamp, showcases backend integration with MongoDB for data storage, enabling dynamic and persistent camp listings and reviews."
+              description="This is an express+bootstrap project. Regarding a camp website, you can add camps and score them. It is the first project learned from web development bootcamp."
               ghLink="https://github.com/YiWang24/WyCamp"
               demoLink="https://app2.yiwang.run/"
             />
@@ -47,7 +47,7 @@ function Projects() {
               imgPath={nike}
               isBlog={false}
               title="Nike"
-              description="Developed a Nike-inspired website using TailwindCSS and React, showcasing dynamic product displays and modern, responsive design. This project highlights skills in front-end development and UI/UX principles for a clean, branded user experience."
+              description="This is an express+bootstrap project. Regarding a camp website, you can add camps and score them. It is the first project learned from web development bootcamp."
               ghLink="https://github.com/YiWang24/Nike"
               demoLink="https://app3.yiwang.run/"
             />
